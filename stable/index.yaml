@@ -1,9 +1,33 @@
 apiVersion: v1
 entries:
+  fgawon:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2019-09-27T06:44:01.020066475Z"
+    description: Sample helm chart for study
+    digest: df69eeb8060a87079a0912f4f93e5993322825597617f4d2298980aefcd37ab6
+    engine: gotpl
+    home: https://lee-sangmok.github.io/helmcharts/stable
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - hello
+    - sample
+    - fgawon
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: fgawon@gmail.com
+      name: Sangmok Lee
+    name: fgawon
+    sources:
+    - https://lee-sangmok.github.io/helmcharts/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - fgawon-0.1.0.tgz
+    version: 0.1.0
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: "2019-09-27T02:28:13.253161707Z"
+    created: "2019-09-27T06:44:01.022293189Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -26,4 +50,4 @@ entries:
     urls:
     - redis-9.2.0.tgz
     version: 9.2.0
-generated: "2019-09-27T02:28:13.25035946Z"
+generated: "2019-09-27T06:44:01.018725798Z"
